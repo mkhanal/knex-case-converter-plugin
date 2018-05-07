@@ -9,9 +9,11 @@ function wrapIdentifier(value, origImpl) {
 function postProcessResponse(result) {
   function mapKeysToCamelCase(obj) {
     const transformed = {};
-    Object.keys(obj).forEach(key => transformed[camelCase(key)] = obj[key])
+    Object.keys(obj).forEach(key => transformed[camelCase(key)] = obj[key]);
     return transformed;
   }
+
+  if(!result) return result;
 
   if (Array.isArray(result)) return result.map(row => mapKeysToCamelCase(row));
   return mapKeysToCamelCase(result);

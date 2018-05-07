@@ -28,6 +28,9 @@ describe('kenx:Plugin - Case converter plugin:', () => {
   });
 
   describe('Column names -> field names', () => {
+    it('should return empty if no values are returned', ()=>{
+        expect(postProcessResponse(undefined)).to.be.an('undefined');
+    });
     it('transpose simple object keys snake case to camelcase', () => {
       expect(postProcessResponse({ test_key: 1 })).to.deep.equal({ testKey: 1 });
     });

@@ -1,7 +1,7 @@
 {
   "name": "knex-case-converter-plugin",
   "description": "convert snake_case column names to camelCase on query and the reverse when using parameters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "author": "mkhanal",
   "repository": "mkhanal/knex-case-converter-plugin",
