@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "camelcase": "^5.0.0",
-    "decamelize": "^2.0.0"
+    "decamelize": "^5.0.0"
   }
 }
