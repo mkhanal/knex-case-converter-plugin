@@ -948,7 +948,7 @@ escodegen@^1.6.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-esprima@2.7.x, esprima@^2.1.0, esprima@^2.7.1:
+esprima@2.7.x, esprima@^2.7.1:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
 
@@ -1392,13 +1392,13 @@ isobject@^2.0.0:
     isarray "1.0.0"
 
 isparta@*:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/isparta/-/isparta-4.0.0.tgz#1de91996f480b22dcb1aca8510255bae1574446e"
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/isparta/-/isparta-4.1.1.tgz#c92e49672946914ec5407c801160f3374e0b7cb4"
   dependencies:
     babel-core "^6.1.4"
     escodegen "^1.6.1"
-    esprima "^2.1.0"
-    istanbul "^0.4.0"
+    esprima "^4.0.0"
+    istanbul "0.4.5"
     mkdirp "^0.5.0"
     nomnomnomnom "^2.0.0"
     object-assign "^4.0.1"
@@ -1409,7 +1409,7 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istanbul@^0.4.0:
+istanbul@0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/istanbul/-/istanbul-0.4.5.tgz#65c7d73d4c4da84d4f3ac310b918fb0b8033733b"
   dependencies:
